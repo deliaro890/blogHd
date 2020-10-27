@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" id="subirnota">
+<head>
+	<meta charset="UTF-8">
+	<title>Subir Notas</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="estiloBlog.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="">
+	
+</head>
+<body style="width:100%;">
+	<div id="subirnota_contenido" class="row">
+		<div id="subirnota_head" class="col-md-12">
+			
+				<img src="../img/Logotipo_HDAsociados_Mov.svg">
+				<br>
+				<p class="subirnota_texto">Subir nota website HD & Asociados</p>
+				<hr>
+			
+		</div>
+		<div>
+			<h1 id="nota_subida" class="hide" style="color:red"></h1>
+		</div>
+		<div id="subirnota_form">
+			<form id="form_noticia" enctype="multipart/form-data" method="post" action="./guardar_noticia.php">
+				
+				<div class="col-md-12 subirnota_renglon">
+					<label class="col-md-3 subirnota_titulo" for="">Título de la nota</label>
+					<input class="col-md-9" type="text" id="noticia_titulo" name="titulo">
+				</div>	
+				<div class="col-md-12 subirnota_renglon">	
+					<label class="col-md-3 subirnota_titulo" for="">Contenido de la nota</label>
+					<textarea class="col-md-9" name="texto" id="texto" cols="30" rows="30" placeholder="Para separar el texto en párrafos, hacerlo mediante la siguiente notación: <p>Contenido de párrafo 1</p>  <p>Contenido de párrafo 2</p>  <p>Contenido de párrafo 3</p>..."></textarea>
+				</div>
+				<div class="col-md-12 subirnota_renglon">
+					<label class="col-md-3 subirnota_titulo" for="">Autor</label>
+					<input class="col-md-3" type="text" id="noticia_autor" name="autor">
+				</div>	
+				<div class="col-md-12 subirnota_renglon">
+					<label class="col-md-3 subirnota_titulo" for="">Fecha en que se publicó</label>
+					<input class="col-md-3" type="text" name="fecha" placeholder="Ejemplo: 01 de Enero de 2018">
+				</div>
+				<div class="col-md-12 subirnota_renglon">
+					<label class="col-md-3 subirnota_titulo" for="">Adjuntar imagen</label>
+					<input class="col-md-3" type="file" name="img_up" id="noticia_imagen">
+					<label class="col-md-12" id="label_imagen" for="">*ancho 1300px por 866px de alto</label>
+					<hr class="col-md-12">
+				</div>
+				<div class="col-md-12 subirnota_renglon	nota_enviar">
+					<button id="noticias_guardar" type="button">PUBLICAR NOTA</button>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+
+	 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	 <script type="text/javascript" src="js/subir.js"></script>	
+</body>
+</html>
+
+

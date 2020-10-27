@@ -1,0 +1,1610 @@
+
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+
+body {
+  margin: 0;
+  
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+
+figcaption,
+f<link rel="stylesheet" type="text/css" href="../css/normalize.css">igure,
+main { /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+
+details, /* 1 */
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+p,h1,form,figure,ul,a{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vh;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+section{
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-top: 7vh;
+    position: relative;
+    height: 115vh; /*100 -- 110*/
+    background-color: white;
+    box-sizing: border-box;
+    margin: auto;
+    top: 90vh;
+    z-index: 1;
+}
+#efecto{
+    position: fixed;
+    background-image: url(../img/Slide_HDAsociados_Mov.jpg);
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:90vh;
+    width: 100%;
+}
+#presentacion{
+  color:white;
+  margin-top: 100px;
+  text-align: center;
+  padding: 60px;
+
+}
+
+#presentacion p{
+
+  background: rgba(14, 13, 13, 0.3); 
+  padding: 20px;
+}
+#contenedorBolitas{
+ 
+  width: 100% !important;
+  height: 100px;
+}
+.bolas{
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  
+   border: 5px solid red;
+}
+
+#contenedorF{
+
+    display: inline-block !important;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100% !important;
+}
+
+#siguiente{
+   margin-top: 40px;
+   position: relative;
+   font-size: 7vh;
+   cursor: pointer;
+   text-align: center;
+   margin-left: 30%;
+   margin-right: 25%;
+   display: inline-block;
+   
+
+}
+#anterior{
+   position: relative;
+   font-size: 7vh;
+   cursor: pointer;
+   text-align: center;
+   display: inline-block;
+   
+}
+header{
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    margin:auto;
+    background-color:white;
+    height: 100px;
+    padding: 10px;
+    z-index: 100;
+}
+header figure{
+    width: 63%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    background-image: url(../img/Logotipo_HDAsociados_Mov.svg);
+    background-size: 210px 60px;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-right:5vw;
+   
+}
+#imgmenu[type="checkbox"]{
+    display: none;
+}
+header label{
+   position: inherit;
+}
+#imgmenu[type=checkbox]+ label{
+    background: url("../img/Menu_HDAsociados_Mov.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:left;
+    height: 90px;
+    width: 35px;
+    cursor: pointer;
+}
+#imgmenu[type=checkbox]:checked ~ #menu{
+    animation-name:mostrar;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+}
+#imgmenu[type=checkbox]:checked +label{
+    background-image: url(../img/close.svg);
+    background-size: 150%;
+    background-position: center;
+    opacity: .5;
+}
+#menu{
+    position: fixed;
+    visibility: hidden;
+    top: 100px;
+}
+#menu ul {
+    margin: auto;
+    width: 100%;
+    position:inherit;
+    background-color:black;
+    opacity: .8;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    left: 0px;
+    
+}
+#menu ul li{
+    height: 35px;
+    width: 100%;
+    border:solid white 1px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+#menu ul li:hover,#menu ul a:hover{
+    border-color: #cc6633;
+    color:#cc6633;
+}
+#menu ul a{
+    padding-top:5px;
+    display: block;
+    height: 25px;
+    text-decoration: none;
+    width: 100%; 
+    padding-left: 20%;
+    font-size: 3vh;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+  
+}
+#tel{
+    display: none;
+}
+#social {
+    position: fixed;
+    height: 10vh;
+    width: 46px;
+    top:40vh;
+    right: 4vw;
+    z-index:2;
+    
+}
+#social img{
+    margin-bottom: 2vh;
+}
+#slide{
+    display: none;
+}
+#socios{
+    background-color:#e1e1e1;
+    height: 80vh !important;
+    padding-top: -20px;
+
+
+}
+#socios h1{
+    text-align: center;
+}
+
+#socios div{
+    position:relative;
+    display: block;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    top:60vh;
+
+
+}
+.sociosfoto{
+    position: relative;
+    width: 35vh;
+    height: 35vh;
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.sociosfoto img{ /*clase para las imagenes de los articles*/
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border:solid 5px;
+    overflow: hidden;
+}
+#s1{  /* cada article */
+    display: block;
+}
+#s1 img{
+    border:solid #ce5b2d 6px;
+}
+#s2,#s3,#s4,#s5,#s6{
+  display: none;
+}
+
+#s2 img{
+    border:solid #385ca4 6px;
+}
+
+#s3 img{
+    border:solid #91aa3d 6px;
+}
+
+#s4 img{
+    border:solid #ce5b2d 6px;
+}
+#s5 img{
+    border:solid #385ca4 6px;
+}
+
+#s6 img{
+    border:solid #91aa3d 6px;
+}
+
+
+#socios input[type="radio"]+img{
+    display: none;
+}
+#socios input[type="radio"]:nth-child(1):checked+#socio1{
+    display: block !important;
+    position: absolute;
+    top:-45vh;
+    height: 190px;
+    width: 190px;
+    left: -90px;
+    border-radius: 50%;
+}
+#socios input[type="radio"]:nth-child(2):checked+#socio2{
+    display: block !important;
+    position: absolute;
+    top:-50vh;
+    height: 190px;
+    width: 190px;
+    left: -90px;
+    border-radius: 50%;
+}
+#socios input[type="radio"]:nth-child(3):checked+#socio3{
+    display: block !important;
+    position: absolute;
+    top:-50vh;
+    height: 190px;
+    width: 190px;
+    left: -90px;
+    border-radius: 50%;
+
+}
+
+
+#contabilidad{
+    border-top: 4px solid #ce5b2d;
+    border-bottom: 4px solid #ce5b2d;
+    background-image: url(../img/FigContabilidad_HDAsociados_Esc.svg);
+}
+#contabilidad p{
+
+   
+}
+.mass{
+  width: 30px;
+  display: inline-block;
+}
+.mas{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+}
+#mas1,#mas1_2,#mas1_3{
+    
+    /*left: 30%;*/
+ 	
+    
+}
+.titulo_servicios{
+  font-size: 18px;
+
+}
+.ocultos ul{
+  padding: 0px !important;
+  margin-right: 23px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+#oculto1,#oculto1_2,#oculto1_3,#oculto2,#oculto2_2,#oculto2_3,#oculto2_4,#oculto2_5,#oculto2_6,#oculto3,#oculto3_2,#oculto3_3,#oculto3_4,#oculto4{
+    display: none;
+}
+#oculto3_2 ul{
+ line-height: 1 !important;
+}
+#fig1 {
+    position: relative;
+    background-image: url(../img/Contabilidad_HDAsociados_Esc.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    top:90vh;
+    height:60vh;
+    margin:auto;
+    
+}
+#fig1 div,#fig2 div{
+    background-image: url(../img/Textura_HDAsociados_Esc.svg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 60vh;
+    
+}
+#legal{
+    border-top: 4px solid #385ca4;
+    border-bottom: 4px solid #385ca4; 
+    background-image: url(../img/FigLegal_HDAsociados_Esc.svg);
+    
+}
+#fig2{
+    position: relative;
+    background-image: url(../img/Auditoria_HDAsociados_Esc.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    top:90vh;
+    height:60vh;
+    margin: auto;
+    
+}
+#auditoria{
+     border-top: 4px solid #91aa3d;
+    border-bottom: 4px solid #91aa3d;
+    background-image: url(../img/FigAuditoria_HDAsociados_Esc.svg);
+}
+
+#arquitectura{
+     border-top: 4px solid #91aa3d;
+    border-bottom: 4px solid #91aa3d;
+    background-image: url(../img/FigAuditoria_HDAsociados_Esc.svg);
+}
+#contacto{
+    background-color:#e1e1e1; 
+    height: 200vh;
+}
+#contacto form{
+    max-width: 1260px;
+    padding-top: 6vh;
+}
+#contacto label+input{
+    width: 100%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    
+}
+#contacto input[type="submit"]{ 
+    border:none;
+    font-family: raleway;
+    width:100px;
+    height:40px;
+    background-color: #91aa3d;
+    color:white;
+    padding: 0px;
+}
+#contacto form div{
+    margin-top: 3vh;
+    margin-bottom: 20vh;
+    height: auto;
+    width:60px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#contacto input[type="submit"]:hover{
+    background-color: #cc6633;
+}
+#contacto p{
+    margin-bottom: 5vh;
+}
+
+#map{
+    width: 180px!important;
+    top:30px !important;
+
+}
+
+#mapa {
+    /*width: 320px;*/
+    height: 80vh;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-word;
+}
+
+#contacto iframe{
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin-left: 70px;
+}
+footer{
+    height: 15vh;
+    background-image:url(../img/FondoPie_HDAsociados_Esc.jpg);
+    background-size:100% 100%;
+    background-position: cover;
+    position: relative;
+    top:90vh;
+    padding-top:60px;
+}
+
+footer div{
+    background-image:url(../img/Textura_HDAsociados_Esc.svg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 15vh;    
+}
+footer p{
+    color:white;
+    font-size: 14px !important; /*4vh*/
+}
+footer a{
+    
+    font-size: 15px !important; /*4vh*/
+    margin-left: 30% !important;
+    
+}
+#blog{
+    display: none;
+}
+#piee{
+  text-align: center;
+}
+
+#piee1{
+  text-align: center;
+  width: 100%;
+  
+}
+
+
+/*clases globales*/
+/*
+#contabilidad p:before{
+    content:'';
+    background-color: yellow;
+    height: 35vh;
+    width: 100%;;
+    position: absolute;
+    left: 0px;
+    top:27vh;
+    z-index: ;
+}
+
+#contabilidad p:hover::before{
+    transform: translateY(10vh);
+    transition-duration: 400ms;
+}
+*/
+.link:hover{
+     transform: scale(1.2);
+    transition-duration: 300ms;
+}
+.centrar{
+    text-align: center;
+    font-size: 18px;
+}
+
+.figura{
+    padding-top: 13vh;
+    background-size: 50px 15vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.titulo{
+    font-size: 20px;
+    margin-bottom: 2vh;
+    font-weight:normal;
+    margin-top: 25px;
+}
+.servicios{
+  margin-top: 20px;
+
+}
+.centrarimg{
+    height: 35vh;
+    height: 150px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 5vh;
+}
+.spacep{
+    line-height: 1.4;
+    font-size: 16px;
+    margin-right: 30px;
+}
+.mensaje{
+    height: 15vh;
+}
+
+#aviso {
+  color:#f7b74a;
+  text-decoration: none;
+  margin-left: 0px !important; /*centrar un a y text align center en su div*/
+  
+  
+}
+
+
+/*animaciones*/
+@keyframes mostrar{
+    from{
+        visibility: hidden;
+        opacity: 0;
+         
+    }
+    to{
+        
+        visibility: visible;
+        opacity: .85;
+    }
+}
+
+@media screen and (min-width: 767px){  
+    
+    section{
+        padding-top: 7vh !important;
+        height: 90vh;
+    }
+    section h1{
+        text-align: left !important;
+    }
+    header{
+        height: 110px;
+        padding: 5px;
+    }
+    header figure{
+        width: 223.8px;
+        height: 54.35px;
+        display:block;
+        position: relative;
+        background-image: url(../img/Logotipo_HDAsociados_Esc.svg);
+        background-size: 100% 100%;
+    
+    }
+    header label{
+        display: none;
+    }
+
+
+  #presentacion{
+  
+  margin-top: 150px;
+  
+  padding: 40px;
+
+}
+
+#socioss{
+  text-align: center !important;
+  margin-top: 25px;
+}
+
+#presentacion p{
+
+  background: rgba(14, 13, 13, 0.6); 
+  padding: 100px;
+  width: 70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#siguiente{
+  margin-left: 33%
+}
+
+.servicios{
+ width: 100%;
+  
+}
+
+.contenedorMas{
+  display: inline-block;
+}
+
+
+
+    #mas1,#mas2,#mas3{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 0%;
+	  top:0vh; /*-30vh*/
+    cursor: pointer;
+}
+
+#imagen1 img,#imagen2 img,#imagen3 img,#imagen4 img{
+  height:280px;
+  width: 280px;
+}
+
+    #menu{
+        visibility: visible;
+        position: relative;
+        top:10px;
+        width: 100%;
+       
+    }
+    #menu ul {
+        width:90%;
+        margin-left:auto;
+        margin-top: 1.4vh;
+        padding: 0px;
+        list-style: none;
+        left: 0px;
+        box-sizing: border-box;
+        background-color:white;
+    }
+    #menu ul li{
+        height: auto;
+        display: inline;
+        border-style:none;
+        margin-bottom: 0px;
+    }
+    #menu ul li:hover,#menu ul a:hover{
+        border-color: #cc6633;
+        color:#cc6633;
+    }
+    #menu ul a{
+        padding-top:0px;
+        display: inline;
+        height: auto;
+        text-decoration: none;40px
+        width: auto; 
+        padding-left: 0%;
+        font-size:15px;
+        margin-right:3.2vw;
+        color:#666666;
+
+    }
+
+    /*******************************/
+#contabilidad{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+  }
+.gridd{
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  grid-template-rows: 10% 40% 10% 10% 1fr;
+  grid-template-columns: 100%;
+  }
+
+.titulo{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 110px;
+  }
+#lineaTexto1{grid-column: 1;
+  grid-row: 2;
+  text-align: justify;
+  width: 100% !important; 
+  margin-top: 100px;
+  }
+.servicios{
+  grid-column: 1;
+  grid-row: 3;
+  margin-top: 100px;
+  }
+.contenedorMas{
+  grid-column: 1;
+  grid-row: 4;
+  margin-top: 100px;
+  }
+#oculto1{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: -450px;
+  }
+#oculto1_2{
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: -450px;
+  }
+#oculto1_3{
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: -450px;
+  }
+
+
+#imagen1{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/*******************/
+#legal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+  }
+
+#lineaTexto2{grid-column: 1;
+  grid-row: 2;
+  text-align: justify;
+  width: 100% !important; 
+  margin-top: 100px;
+  }
+
+#oculto2{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: -450px;
+  }
+#oculto2_2{
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: -450px;
+  }
+#oculto2_3{
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: -450px;
+  }
+#oculto2_4{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: -450px;
+  }
+#oculto2_5{
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: -450px;
+  }
+#oculto2_6{
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: -450px;
+  }
+
+
+#imagen2{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/****************/
+
+#auditoria{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+  }
+
+#lineaTexto3{grid-column: 1;
+  grid-row: 2;
+  text-align: justify;
+  width: 100% !important; 
+  margin-top: 100px;
+  }
+
+#oculto3{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: -500px;
+  }
+#oculto3_2{
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: -500px;
+  }
+#oculto3_3{
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: -450px;
+  }
+#oculto3_4{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: -450px;
+  }
+
+
+#imagen3{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/*******/
+
+
+#arquitectura{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+  }
+
+#lineaTexto4{
+  grid-column: 1;
+  grid-row: 2;
+  text-align: justify;
+  width: 100% !important; 
+  margin-top: 100px;
+  }
+
+#mas4{
+  grid-column: 1;
+  grid-row: 4;
+  margin-top: 100px;
+  }
+#oculto4{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 100px;
+  }
+#imagen4{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/*********/
+    #tel{
+        display: inline;
+        color:#666666;
+        position: fixed;
+        background-image: url(../img/Telefono_HDAsociados_Esc.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    #tel p{
+        font-size: 15px;
+        font-family: raleway;
+        margin-left: 25px;
+    }
+    #efecto{
+        background-image: url(../img/Slide_HDAsociados_Esc.jpg);
+        background-size:100% 100%;
+        width: 100%;
+    }
+    #contabilidad{
+        background-image: none;
+    }
+    #contabilidad h1::before{
+        content: '';
+        background-image: url(../img/FigContabilidad_HDAsociados_Esc.svg);
+        background-repeat: no-repeat;
+        background-position:center;
+        margin-right: 10px;
+        padding-left: 55px;
+    }
+    #contabilidad p{
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+    #contabilidad figure{
+        display: inline-block;
+        width: 40%;
+        height: 35vh;
+        position: relative;
+        
+       
+    }
+    #fig1 {
+        background-attachment: fixed;
+        max-width: none;
+        width: 100%; 
+    }
+    #legal{
+        background-image:none;
+    }
+    #legal p{
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+    #legal figure{
+        display: inline-block;
+        width: 40%;
+        height: 35vh;
+        position: relative;
+    }
+    #legal h1::before{
+        content: '';
+        background-image: url(../img/FigLegal_HDAsociados_Esc.svg);
+        background-repeat: no-repeat;
+        background-position:center;
+        margin-right: 10px;
+        padding-left: 55px;
+    }
+    #fig2{
+        background-attachment: fixed;
+        max-width: none;
+        width: 100%; 
+    
+    }
+    #auditoria{
+        background-image:none;
+    }
+    #auditoria p {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+    #auditoria figure{
+          display: inline-block;
+        width: 40%;
+        height: 35vh;
+        position: relative;
+    }
+    #auditoria h1::before{
+        content: '';
+        background-image: url(../img/FigAuditoria_HDAsociados_Esc.svg);
+        background-repeat: no-repeat;
+        background-position:center;
+        margin-right: 10px;
+        padding-left: 55px;
+    }
+    #contacto{
+		height: 145vh;
+		min-height: 700px;
+    }
+    #contacto h1{
+        text-align: center !important;
+    }
+    #contacto form{
+        width: 40%;
+        display: inline-block;
+        margin-right: 10vw;
+        height: auto!important;
+    }
+    #contacto form input{
+        height:7vh;
+    }
+    .mensaje{
+        height: 150px !important;
+    }
+    #mapa{
+        display: inline-block;
+        width: 40%;
+        position: relative;
+        top:-30vh;
+		height: 50% !important;
+    }
+    #map{
+        width: 200px!important;
+        top:30px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	#contacto iframe{
+		border-radius: 50%;
+		height:230px;
+		width: 230px;
+		margin-left: 70px;
+	}
+    #contacto iframe{
+        margin-left:0px;
+    }
+	footer{
+		height: 15vh;
+		background-image:url(../img/FondoPie_HDAsociados_Esc.jpg);
+		background-size:100% 100%;
+		background-position: cover;
+		position: relative;
+		top:90vh;
+	}
+
+
+} 
+
+
+
+@media screen and (min-width: 1100px){
+
+  #oculto2_6{
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: -450px;
+  }
+
+  #oculto3{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: -450px;
+  }
+#oculto3_2{
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: -450px;
+  }
+  #siguiente{
+   
+   margin-left: 35%;
+   
+}
+
+}
+
+
+@media screen and (min-width: 1200px){
+
+#presentacion{
+  
+  margin-top: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding: 30px;
+
+}
+
+#presentacion p{
+
+  background: rgba(14, 13, 13, 0.6); 
+  padding: 100px;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+
+}
+@media screen and (min-width: 1260px){
+    header{
+        height: 165px;
+        padding: 10px 0px 5px 90px;
+        width: 100%;
+    }
+    header figure{
+        width: 337px;
+        height:90px; 
+    }
+    #menu{
+        top:20px;
+        width: 100%;
+        padding-left: 40px;
+    }
+    #menu ul {
+        width:100%;
+    }
+    #menu ul a{
+        font-size: 18px;
+        margin-right: 70px;
+    }
+    #tel{
+        font-size:18px;
+    }
+
+    #social{
+        right: 3vh;
+    }
+    #efecto{
+        background-size: 1260px;
+        top:160px;
+        height: 435px;
+        
+        
+    }
+    section{
+        top:595px !important;
+    }
+    #fig1,#fig2{
+        max-width: 1260px;
+        top: 595px;
+    } 
+    #mapa{
+        top:-35vh;
+    }
+   
+	 #contacto{
+		height: 150vh;
+		min-height: 700px;
+    }
+    #map{
+        width: 180px!important;
+        top:30px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contacto iframe{
+        margin-left:0px
+            }
+    .panoramico{
+        max-width: 1260px;
+        margin-left: auto;
+    }
+     .mensaje{
+        height: 200px !important;
+    }
+    footer{
+
+        top:595px;
+    }
+}
+

@@ -1,0 +1,745 @@
+.noticia_small:hover{
+	/*color: #FFB36F !important;*/ 
+	color: #009cea !important;
+
+}
+
+a   
+{   
+ text-decoration:none !important; 
+ font-family: 'Raleway';
+font-size: 15px;  
+}
+#ap{
+	text-align: center;
+	margin-top: 15px;
+}
+
+#facebook{
+margin-right: 30px;
+}
+
+
+
+
+p, h1, h2 {
+
+	font-family: 'Raleway';
+	font-size: 15px;
+}
+
+#pub {
+
+	font-weight: bold;
+}
+
+
+#footer{
+	background-color: #0C2749;
+}
+#footer div{
+	width: 98%;
+	margin-left: 1%;
+}
+#footer div p{
+	color: white;
+}
+
+
+body, div, section, article {
+	
+	display: inline-block;
+	font-family: 'Raleway';
+}
+
+
+
+
+header{
+	/*height: 140px;*/
+	display: inline-block;
+	
+
+	height: auto;
+	display: inline-block;
+	width: 100%;
+	position:fixed;
+	top:0px; 
+
+	
+}
+ 
+header nav figure{
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+
+}
+header nav figure img{
+	height: 100%;
+	width: 100%;
+}
+
+header nav figure:nth-child(3){
+
+	/*border:solid black 1px;*/
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	margin: 0px;
+	position: absolute;
+	top: 60px;
+	right: 12%;
+	/*right: 38px;*/
+}
+
+  header nav figure:nth-child(4){
+
+	border:solid #0C2749 1px;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	margin: 0px;
+	position: absolute;
+	top: 60px;
+	right: 2%;
+	border-radius: 6px;
+}
+header nav{
+	position:fixed;
+	top:0px; 
+	background-color: white;
+	width: 100%;
+	margin:0px;
+	padding: 0px;
+
+}
+
+header nav ul{
+	/*border:solid black 1px;*/
+	margin:0px;
+	padding: 0px;
+	background-color: #0C2749;
+	display: inline-block;
+	width: 98%; 
+	display: none;
+}
+
+ header nav ul li{
+	border:solid white 2px;
+	padding: 0px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: raleway;
+	font-weight: bold;
+	margin: 0px;
+	line-height: 40px;
+	padding: 10px 30px;
+	font-size: 16px;
+}
+
+ #logo{
+
+	/*border: solid red 1px;*/
+	margin-top: 20px;
+	
+	width: 200px;
+	height: 100px;
+	margin-left: 1%;
+	display: inline-block;
+}
+
+
+ #logo img{
+
+	height: 100%;
+	width: 100%;
+	margin-left:20px;
+
+}
+
+#contenido{
+	/*position: relative; importante*/
+	top: 100px;
+	height: auto;
+	}
+
+
+
+#img{
+	height: 263px;
+	width: 100%;
+	margin:0px;
+	margin-top: 100px; /*importante*/
+	
+
+}
+
+#img img{
+	height: 100%;
+	width: 100%;
+	padding-top: 3%;
+
+}
+
+#tn h1{
+	text-align: center;
+}
+
+#creditos span{
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+#creditos{
+
+margin-left: 4%;
+margin-right: 40%;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+#creditos p{
+	margin-top: 0px;
+}
+
+#texto_noticia {
+	margin-left: 4%;
+	margin-right: 4%;
+	text-align: justify;
+
+}
+
+#gray{
+	margin-top: 40px; 
+	margin-bottom: 30px; 
+	color: #C9C9C9;
+}
+#Trecientes {
+	margin-left: 4%;
+
+
+}
+hr.hrr{
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+	text-align: center;
+	
+	width: 200%;
+
+}
+
+#hrr{
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+	text-align: center;
+	margin-left: 10%;
+	
+
+}
+
+#myCarousel{
+	height: 160px;
+	width: 100%;
+	/*background-color: lightblue;*/
+}
+
+#myCarousel p{
+
+	text-align: center;
+
+	margin-top: 60px;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: black;
+	/*background-color: lightyellow;*/
+
+}
+
+#myCarousel a{
+	text-decoration: none;
+
+}
+.imgCarrusel{
+	width: 50% !important; 
+	height:100px !important; 
+	margin-left: 25% !important;
+	background-color: pink; 
+}
+
+
+.glyphicon-chevron-left{
+	color: black;
+	font-size: 26px;
+	font-weight: lighter;
+
+}
+
+.glyphicon-chevron-right{
+	
+	color: black;
+	font-size: 26px;
+	font-weight: lighter;
+
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+.active2{
+	display: none;
+}
+
+#footer{
+	background-color: #0C2749;
+}
+#footer div{
+	width: 98%;
+	margin-left: 1%;
+
+}
+
+#footer div:nth-child(1){
+	padding-top: 20px;
+
+}
+
+#footer div:nth-child(4){
+	padding-bottom: 20px;
+}
+
+#footer div p{
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#footer div #fb{
+	margin-left: 46%;
+	width: 33px; /*scroll horizontal**/
+}
+
+
+
+@media screen and (min-width: 480px){
+	body{
+		/*background-color: yellow;*/
+		height: auto;
+	}
+
+	#img{
+		width: 90%;
+		margin-left: 5%;
+	}
+	
+	#img img{
+		padding-top: 3%;
+	}
+
+	}
+
+@media screen and (min-width: 767px){
+	body{
+		background-color:red;
+	}
+	.noticia_small{
+		margin-right: 30%;
+		margin-left: 30%;
+	}
+
+/***/
+
+   #menu{
+        visibility: visible;
+        position: relative;
+        top:10px;
+        width: 100%;
+       
+    }
+    #menu ul {
+        width:90%;
+        margin-left:auto;
+        margin-top: 1.4vh;
+        padding: 0px;
+        list-style: none;
+        left: 0px;
+        box-sizing: border-box;
+        background-color:white;
+    }
+    #menu ul li{
+        height: auto;
+        display: inline;
+        border-style:none;
+        margin-bottom: 0px;
+    }
+    #menu ul li:hover,#menu ul a:hover{
+        border-color: #cc6633;
+        color:#cc6633;
+    }
+    #menu ul a{
+        padding-top:0px;
+        display: inline;
+        height: auto;
+        text-decoration: none;40px
+        width: auto; 
+        padding-left: 0%;
+        font-size:15px;
+        margin-right:3.2vw;
+        color:#666666;
+
+    }
+/***/
+
+/*url("img_noticia/nota11300x866.jpg"),*/
+
+	#img{
+
+		background: 
+		linear-gradient(#fff,transparent 90%),
+		linear-gradient(0deg,#fff,transparent 90%),
+        	url('img/Clearing-and-Forwarding-1200x480.jpg') no-repeat center;
+		background-size: cover;
+		text-align: center;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#img img{
+	filter: blur(0px);
+	height: 200px;
+	width: 400px;
+	margin-top: 30px;
+	padding-top: 0px;
+
+}
+	
+
+
+
+}
+
+
+@media screen and (min-width: 950px){
+body{
+		/*background-color: red;*/
+	}
+	#contenido{
+		top:0px !important; /*604*/
+	}
+	#logo{
+		margin-left: 0px;
+		padding: 0px;
+	}
+
+  	#img img{
+	height: 200px;
+		width: 600px;
+
+	}
+
+
+
+	header nav{
+		display: inline-block;
+	
+		height: auto;
+		width: 100%;
+
+		
+		padding: 0px;
+		margin: 0px;
+		background-color: white;
+	}
+	header nav ul{
+	margin: 0px;
+	padding: 0px;
+	width: 74%;
+	position: absolute;
+	top: 56px;
+	left: 200px;
+	display: block !important;
+	background-color: white;
+}
+
+header nav ul li{
+        /*border:solid pink 2px;*/
+		display: inline-block;
+		width: 15%;
+		margin: 0px;
+		padding: 0px;
+		border: none;
+}
+/*
+header nav ul li:nth-child(2){
+		width: 18%;
+		font-size: 13px;
+	}*/
+header nav ul li a{
+		color: grey;
+		padding: 0px;
+		margin: 0px;
+		 
+	}
+
+	header  nav figure:nth-child(4){
+
+		display: none;
+		
+	}
+
+	header  nav figure:nth-child(3){
+
+		right: 1%;
+		
+	}
+
+	.item{
+		display: inline-block;
+	}
+
+	#img{
+	height: 263px;
+	}
+
+	#myCarousel p{
+
+	margin-top: 70px;
+	margin-left: 25%;
+	margin-right: 0px;
+	color: black;
+
+	}
+
+/*.active{
+	display: none;
+}
+	.active2{
+	display: block;
+}*/
+.carousel-inner .item div{
+	display: inline-block;
+}
+
+.div_img{
+	/*background-color: red;
+	border: solid black 1px;*/
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 10px;
+	margin-top: 30px;
+	width: 100%;
+
+}
+.imgCarrusel{
+	width: 100% !important; 
+	height:100px !important;
+	margin-right: 10px; 
+	margin-left: 0px;
+	padding-left: 0px;
+	/*background-color: pink;*/
+}
+
+
+
+
+	#footer p{
+
+		text-align: left !important;
+	}
+	#footer div{
+		width: 27%;
+		vertical-align: top;
+	}
+	#footer div:nth-child(1){
+		margin-left: 8%;
+		padding-top: 0px;
+	}
+	#footer div:nth-child(4){
+		width: 40px;	
+		padding-bottom: 0px;
+	}
+
+}
+
+
+header figure{
+    width: 63%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    background-image: url(../img/Logotipo_HDAsociados_Mov.svg);
+    background-size: 210px 60px;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-right:5vw;
+   
+}
+
+
+header{
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    margin:auto;
+    background-color:white;
+    height: 100px;
+    padding: 10px;
+    z-index: 100;
+}
+header figure{
+    width: 63%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    background-image: url(../img/Logotipo_HDAsociados_Mov.svg);
+    background-size: 210px 60px;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-right:5vw;
+   
+}
+#imgmenu[type="checkbox"]{
+    display: none;
+}
+header label{
+   position: inherit;
+}
+#imgmenu[type=checkbox]+ label{
+    background: url("../img/Menu_HDAsociados_Mov.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:left;
+    height: 90px;
+    width: 35px;
+    cursor: pointer;
+}
+#imgmenu[type=checkbox]:checked ~ #menu{
+    animation-name:mostrar;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+}
+#imgmenu[type=checkbox]:checked +label{
+    background-image: url(../img/close.svg);
+    background-size: 150%;
+    background-position: center;
+    opacity: .5;
+}
+#menu{
+    position: fixed;
+    visibility: hidden;
+    top: 100px;
+}
+#menu ul {
+    margin: auto;
+    width: 100%;
+    position:inherit;
+    background-color:black;
+    opacity: .8;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    left: 0px;
+    
+}
+#menu ul li{
+    height: 35px;
+    width: 100%;
+    border:solid white 1px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+#menu ul li:hover,#menu ul a:hover{
+    border-color: #cc6633;
+    color:#cc6633;
+}
+#menu ul a{
+    padding-top:5px;
+    display: block;
+    height: 25px;
+    text-decoration: none;
+    width: 100%; 
+    padding-left: 20%;
+    font-size: 3vh;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+  
+}
+.link:hover{
+     transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
+#regre{
+
+	font-family: 'raleway',sans-serif;
+	color: #eb5c35;
+	font-weight: 900;
+    font-size: 20px;
+    margin-top: 36px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+
+footer{
+    
+    background-image:url(../img/FondoPie_HDAsociados_Esc.jpg);
+    background-size:100% 100%;
+    background-position: cover;
+    position: relative;
+   
+}
+
+footer div{
+    background-image:url(../img/Textura_HDAsociados_Esc.svg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+        
+}
+footer p{
+    color:white;
+    font-size: 14px !important; /*4vh*/
+}
+footer a{
+    
+    font-size: 15px !important; /*4vh*/
+    margin-left: 30% !important;
+    
+}
+#piee{
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+#aviso {
+  color:#f7b74a;
+  text-decoration: none;
+  
+  margin-left: 0%!important; /*!!!!!!!centrar un a y text align center en su div*/
+  margin-bottom:0px;
+  
+}
+
+#aviso p{
+ 
+  margin-bottom: 0px !important;
+  
+}
+
+.centrar{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+

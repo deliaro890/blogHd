@@ -1,0 +1,632 @@
+body{
+	font-family: 'Raleway';
+}
+
+a{
+	text-decoration: none !importan;
+}
+
+p,a{
+	font-family: raleway;
+	font-size: 1.6rem;
+	text-align: center;
+}
+h1{
+	font-family: raleway;
+	font-size: 1.6rem;
+	text-align: center;
+}
+li{
+	font-size: 1.6rem;
+}
+h2{
+	font-size: 1.6rem;
+	font-family: raleway;
+	text-align: center;
+	border:red solid 1px;
+	margin-top: 0px;
+}
+#ap{
+	text-align: center;
+}
+#facebook{
+margin-right: 30px;
+}
+#asesoriaServicios h3{
+	
+		text-align: center;
+		margin-bottom: 30px;
+
+	}
+
+#asesoriaServicios p{
+
+	margin-left: 6%;
+	margin-right: 6%;
+	text-align: justify;
+}
+@media screen and (min-width: 950px){
+	#footer div p{
+		text-align: left;
+	}
+	#footer div{
+		width: 27%;
+		vertical-align: top;
+		display: inline-block;
+
+	}
+
+	#footer div:nth-child(1){
+		margin-left: 8%;
+		padding-top: 0px;
+	}
+	#footer div:nth-child(4){
+		width: 40px;	
+		padding-bottom: 0px;
+	}
+	#footer div:nth-child(2),
+	#footer div:nth-child(3){
+		margin-left: 3%;
+		padding-top: 20px;
+
+	}
+
+	}
+
+	#footer{
+	background-color: #0C2749;
+	
+}
+	#footer div{
+	width: 98%;
+	margin-left: 1%;
+}
+	#footer div p{
+	color: white;
+}
+	#footer div #fb{
+	margin-left: 46%;
+	width: 33px; 
+}
+
+#footer div:nth-child(1){
+	padding-top: 20px;
+
+}
+
+#footer div:nth-child(4){
+	padding-bottom: 20px;
+}
+
+
+
+
+
+/***************ENCABEZADO******************/
+
+#encabezadoServcios h4{
+	text-align: center;
+}
+
+#encabezadoServcios {
+	margin-top: 55px;
+	margin-bottom: 45px;
+}
+
+
+
+/***************ASESORIA******************/
+
+#asesoriaServicios{
+	background-color: #333353;
+	color: white;	
+}
+
+#asesoriaServicios .container {
+    width: 100%;
+    padding-right: 0px
+}
+
+#asesoriaServicios .izquierdo{
+	padding-right: 0px;
+}
+
+#asesoriaServicios .izquierdo h3{
+	margin-top: 112px;
+}
+
+#asesoriaServicios p{
+	/*font-size: 15px;*/
+}
+
+#asesoriaServicios img{
+	width: 100%; 
+	height: 465px;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1199px){
+
+	#asesoriaServicios .izquierdo h3 {
+    	margin-top: 22%;
+	}
+
+	#asesoriaServicios h3{
+		align: center;
+	}
+}
+
+/*************movil****/
+header{
+	/*height: 140px;*/
+	display: inline-block;
+	
+
+	height: auto;
+	display: inline-block;
+	width: 100%;
+	position:fixed;
+	top:0px; 
+	z-index: 1000; /****importanteee solo con eso se quedo adelanteee*****/
+	
+}
+ 
+header nav figure{
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+
+}
+header nav figure img{
+	height: 100%;
+	width: 100%;
+}
+
+header nav figure:nth-child(3){
+
+	/*border:solid black 1px;*/
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	margin: 0px;
+	position: absolute;
+	top: 60px;
+	right: 12%;
+	/*right: 38px;*/
+}
+
+  header nav figure:nth-child(4){
+
+	border:solid #0C2749 1px;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	margin: 0px;
+	position: absolute;
+	top: 60px;
+	right: 2%;
+	border-radius: 6px;
+}
+header nav{
+	position:fixed;
+	top:0px; 
+	background-color: white;
+	width: 100%;
+	margin:0px;
+	padding: 0px;
+
+}
+
+header nav ul{
+	/*border:solid black 1px;*/
+	margin:0px;
+	padding: 0px;
+	background-color: #0C2749;
+	display: inline-block;
+	width: 98%; 
+	display: none;
+}
+
+ header nav ul li{
+	border:solid white 2px;
+	padding: 0px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: raleway;
+	font-weight: bold;
+	margin: 0px;
+	line-height: 40px;
+	padding: 10px 30px;
+}
+
+ #logo{
+
+	/*border: solid red 1px;*/
+	margin-top: 20px;
+	
+	width: 200px;
+	height: 100px;
+	margin-left: 1%;
+	display: inline-block;
+}
+
+
+ #logo img{
+
+	height: 100%;
+	width: 100%;
+	margin-left:20px;
+
+}
+
+#contenido{
+	/*position: relative; importante*/
+	top: 100px;
+	height: auto;
+	}
+
+.encabezadoContacto{
+	
+	
+	
+	margin-top: 100px; /*importante*/
+	}
+
+#CD1{
+	height: 260px;
+
+	}
+#CD2{
+	height: 260px;
+
+	}
+
+
+#footer{
+	background-color: #0C2749;
+}
+#footer div{
+	width: 98%;
+	margin-left: 1%;
+}
+#footer div p{
+	color: white;
+}
+#footer div #fb{
+	margin-left: 46%;
+}
+
+
+
+
+
+
+/******de 950 en adelante******/
+@media screen and (min-width: 950px){
+
+	#asesoriaServicios h3{
+		align: center;
+	}
+#contenido{
+		top:0px !important; /*604*/
+		height: auto;
+	}
+	#logo{
+		margin-left: 0px;
+		padding: 0px;
+	}
+
+	header nav{
+		display: inline-block;
+	
+		height: auto;
+		width: 100%;
+
+		
+		padding: 0px;
+		margin: 0px;
+		background-color: white;
+	}
+	header nav ul{
+	margin: 0px;
+	padding: 0px;
+	width: 74%;
+	position: absolute;
+	top: 56px;
+	left: 200px;
+	display: block !important;
+	background-color: white;
+	border: none;
+}
+
+header nav ul li{
+        /*border:solid pink 2px;*/
+		display: inline-block;
+		width: 15%;
+		margin: 0px;
+		padding: 0px;
+		border: none;
+}
+
+/*header nav ul li:nth-child(2){
+		width: 18%;
+		font-size: 13px;
+	}*/
+header nav ul li a{
+		color: grey;
+		padding: 0px;
+		margin: 0px;
+		 
+	}
+
+	header  nav figure:nth-child(4){
+
+		display: none;
+		
+	}
+
+	header  nav figure:nth-child(3){
+
+		right: 1%;
+		
+	}
+
+
+
+
+	#footer div{
+		width: 23%;
+		vertical-align: top;
+	}
+#CD1{
+	height: 357px;
+
+	}
+#CD2{
+	height: 357px;
+
+	}
+	#asesoriaServicios h3{
+		align: center;
+	}
+
+}
+
+
+
+
+
+/*************/
+@media screen and (min-width: 0px) and (max-width: 380px){
+#CD1{
+	height: 260px;
+
+	}
+#CD2{
+	height: 260px;
+
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 989px){
+
+	#asesoriaServicios img{; 
+		height: 350px;
+	}
+
+	#asesoriaServicios .izquierdo h3 {
+	    margin-top: 10%;
+	}
+
+	#asesoriaServicios p {
+	    font-size: 12px;
+	}
+	#asesoriaServicios h3{
+		align: center;
+	}
+	#CD1{
+	height: 357px;
+
+	}
+	#CD2{
+	height: 357px;
+
+	}
+}
+
+@media screen and (max-width: 767px){
+
+	#asesoriaServicios img{; 
+		height: auto;
+	}
+
+	#asesoriaServicios .izquierdo h3 {
+	    margin-top: 10%;
+
+	}
+
+	#asesoriaServicios .izquierdo {
+    	margin-bottom: 10%;
+	}
+
+	#asesoriaServicios .derecho {
+    	padding-left: 0px;
+    	padding-right: 0px;
+	}
+
+	#asesoriaServicios h3{
+		align: center;
+	}
+
+	#asesoriaServicios .container {
+ 	   padding-right: 15px;
+	}
+
+	#CD1{
+	height: 357px;
+
+	}
+	#CD2{
+	height: 357px;
+
+	}
+
+
+}
+
+/***************SERVICIOS******************/
+
+#serviciosServcios{
+	margin-bottom: 135px;
+	
+}
+
+
+
+#serviciosServcios .titulo{
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+#serviciosServcios .titulo p{
+	font-size: 18px;
+}
+
+#serviciosServcios img{
+	max-width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 989px){
+
+	#serviciosServcios img{
+		margin-top: 20%;
+	}
+
+	#serviciosServcios {
+	    margin-bottom: 10%;
+	}
+	#CD1{
+	height: 357px;
+
+	}
+	#CD2{
+	height: 357px;
+
+	}
+
+	#asesoriaServicios h3{
+		align: center;
+	}
+}
+
+@media screen and (max-width: 767px){
+
+	#serviciosServcios img {
+   		width: 100%;
+   		margin-top: 10%;
+	}
+
+	#CD1{
+	height: 357px;
+
+	}
+	#CD2{
+	height: 357px;
+
+	}
+}
+
+/***************SLIDE******************/
+
+#slideServicios{
+	background-image: url(../img/PasquelHermanos_Servicios_CalidadCertificada.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 145px;
+	padding-bottom: 145px;
+}
+
+#slideServicios h3{
+	color:white;
+	text-align: center;
+}
+
+/***************ENCABEZADO CONTACTO ******************/
+
+
+.encabezadoContacto .container {
+    width: 100%;
+    padding-right: 0px
+}
+
+.encabezadoContacto .izquierdo, .encabezadoContacto .derecho{
+	padding-left: 0px;
+}
+
+.encabezadoContacto img{
+	width: 100%; 
+	height: 357px;
+}
+
+
+/***************TITULO CONTACTO ******************/
+
+.tituloContacto p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.tituloContacto h3{
+	text-align: center;
+}
+
+/***************FORMULARIO CONTACTO ******************/
+
+.formularioContacto a{
+	color: black;
+}
+
+.formularioContacto a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+
+.formularioContacto .derecho{
+	margin-top: 25px;
+}
+
+.formularioContacto small{
+	display: none;
+}
+
+.datosContacto{
+	display: none;
+}
+
+#matrizContacto{
+	display:block;
+}
+
+/***************MAPA CONTACTO ******************/
+
+
+.mapaContacto .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.mapaContacto{
+
+	padding-top: 45px;
+
+}
+
